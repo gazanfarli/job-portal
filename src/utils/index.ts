@@ -1,0 +1,1 @@
+export { formatPostedTime } from './formatPostedTime';
