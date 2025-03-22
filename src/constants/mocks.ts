@@ -1,5 +1,11 @@
 import { ICategory } from "../models/category";
-import { IJob, IJobDetails } from "../models/job";
+import {
+  EMPLOYMENT_TYPE,
+  EXPERIENCE_LEVEL,
+  IJob,
+  IJobDetails,
+  JOB_TYPE,
+} from "../models/job";
 
 export const jobDetails: IJobDetails = {
   id: 1,
@@ -7,9 +13,9 @@ export const jobDetails: IJobDetails = {
   company: "Tech Innovators",
   companyLogo: "/logos/tech-innovators.png",
   location: "San Francisco, CA",
-  jobType: "Full-time",
-  employmentType: "Hybrid",
-  experienceLevel: "Mid Level",
+  jobType: JOB_TYPE.FULL_TIME,
+  employmentType: EMPLOYMENT_TYPE.HYBRID,
+  experienceLevel: EXPERIENCE_LEVEL.MID_LEVEL,
   salary: "$80,000 - $100,000",
   category: "Software Development",
   postedDate: new Date("2024-03-18"),
@@ -47,7 +53,7 @@ export const jobListings: IJob[] = [
     title: "Full Stack Developer",
     company: "Tech Innovators Inc.",
     location: "New York, NY",
-    jobType: "Full-Time",
+    jobType: JOB_TYPE.FULL_TIME,
     salary: "$90,000 - $110,000",
     postedDate: "2025-03-01",
     category: "Development",
@@ -59,7 +65,7 @@ export const jobListings: IJob[] = [
     title: "UI/UX Designer",
     company: "Creative Minds Studio",
     location: "Remote",
-    jobType: "Contract",
+    jobType: JOB_TYPE.CONTRACT,
     salary: "$40/hr - $60/hr",
     postedDate: "2025-02-25",
     category: "Design",
@@ -71,7 +77,7 @@ export const jobListings: IJob[] = [
     title: "Backend Developer",
     company: "Data Solutions Corp.",
     location: "San Francisco, CA",
-    jobType: "Full-Time",
+    jobType: JOB_TYPE.FULL_TIME,
     salary: "$100,000 - $130,000",
     postedDate: "2025-03-05",
     category: "Development",
@@ -83,7 +89,7 @@ export const jobListings: IJob[] = [
     title: "DevOps Engineer",
     company: "CloudWorks",
     location: "Austin, TX",
-    jobType: "Full-Time",
+    jobType: JOB_TYPE.FULL_TIME,
     salary: "$95,000 - $120,000",
     postedDate: "2025-03-03",
     category: "DevOps",
