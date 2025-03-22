@@ -3,7 +3,7 @@ import { navItems } from "../../../constants/navItems";
 
 const NavBar = () => {
   return (
-    <header className="max-w-screen-xl mx-auto px-4">
+    <header className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-16">
       <div className="flex justify-between items-center py-5">
         <NavLink to="/" className="flex items-center gap-2">
           <h1 className="text-2xl font-bold">Job Portal</h1>
