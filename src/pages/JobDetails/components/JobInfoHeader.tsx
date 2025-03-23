@@ -1,4 +1,4 @@
-import Badge from "../../../components/ui/Badge";
+import Badge from "../../../components/ui/badge";
 import favoriteIcon from "../../../assets/favorites.svg";
 
 type JobInfoHeaderProps = {

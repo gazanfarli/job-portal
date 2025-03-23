@@ -1,5 +1,5 @@
 import { ICategory } from "../../models/category";
-import Badge from "../ui/Badge";
+import Badge from "../ui/badge";
 
 type CategoryCardProps = {
   category: ICategory;

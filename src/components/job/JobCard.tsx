@@ -1,5 +1,5 @@
 import { IJob } from "../../models/job";
-import Badge from "../ui/Badge";
+import Badge from "../ui/badge";
 import favoriteIcon from "../../assets/favorites.svg";
 import briefcaseIcon from "../../assets/briefcase.svg";
 import clockIcon from "../../assets/clock.svg";
